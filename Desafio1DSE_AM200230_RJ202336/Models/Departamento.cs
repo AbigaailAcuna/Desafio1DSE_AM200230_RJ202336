@@ -13,7 +13,10 @@ namespace Desafio1DSE_AM200230_RJ202336.Models
         public string NombreDepartamento { get; set; }
 
         [Display(Name = "Descripción del Departamento")]
-        public string DescripcionDepartamento { get; set; }
+        public string? DescripcionDepartamento { get; set; }
+
+        //propiedad de navegación
+        public ICollection<Empleado> Empleados { get; set; }
 
 
 
