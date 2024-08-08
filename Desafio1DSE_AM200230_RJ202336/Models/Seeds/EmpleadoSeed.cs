@@ -16,7 +16,7 @@ namespace Desafio1DSE_AM200230_RJ202336.Models.Seeds
                    NombreEmpleado = "John Doe",
                    FechaNacimiento = DateTime.Parse("1985-05-20"),
                    FechaContratacion = DateTime.Parse("2010-08-15"),
-                   SalarioEmpleado = 50000,
+                   SalarioEmpleado = 50000M,
                    DepartamentoId = 1
                },
                new Empleado
@@ -25,7 +25,7 @@ namespace Desafio1DSE_AM200230_RJ202336.Models.Seeds
                    NombreEmpleado = "Jane Smith",
                    FechaNacimiento = DateTime.Parse("1990-03-10"),
                    FechaContratacion = DateTime.Parse("2015-01-25"),
-                   SalarioEmpleado = 70000,
+                   SalarioEmpleado = 70000M,
                    DepartamentoId = 2
                },
                new Empleado
@@ -34,7 +34,7 @@ namespace Desafio1DSE_AM200230_RJ202336.Models.Seeds
                    NombreEmpleado = "Mark Johnson",
                    FechaNacimiento = DateTime.Parse("1982-11-22"),
                    FechaContratacion = DateTime.Parse("2012-06-18"),
-                   SalarioEmpleado = 55000,
+                   SalarioEmpleado = 55000M,
                    DepartamentoId = 3
                },
                new Empleado
@@ -43,7 +43,7 @@ namespace Desafio1DSE_AM200230_RJ202336.Models.Seeds
                    NombreEmpleado = "Emily Davis",
                    FechaNacimiento = DateTime.Parse("1978-07-30"),
                    FechaContratacion = DateTime.Parse("2005-10-12"),
-                   SalarioEmpleado = 75000,
+                   SalarioEmpleado = 75000M,
                    DepartamentoId = 1
                },
                new Empleado
@@ -52,7 +52,7 @@ namespace Desafio1DSE_AM200230_RJ202336.Models.Seeds
                    NombreEmpleado = "Michael Brown",
                    FechaNacimiento = DateTime.Parse("1995-12-05"),
                    FechaContratacion = DateTime.Parse("2020-04-15"),
-                   SalarioEmpleado = 60000,
+                   SalarioEmpleado = 60000M,
                    DepartamentoId = 2
                }
                 );

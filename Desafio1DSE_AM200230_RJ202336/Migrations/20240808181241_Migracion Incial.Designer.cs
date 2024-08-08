@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Desafio1DSE_AM200230_RJ202336.Migrations
 {
     [DbContext(typeof(EmpleadosDBContext))]
-    [Migration("20240808165113_Migracion Incial")]
+    [Migration("20240808181241_Migracion Incial")]
     partial class MigracionIncial
     {
         /// <inheritdoc />
